@@ -1,10 +1,10 @@
 <?php
 // بيانات الاتصال من Railway → Connect
-$host = "yamabiko.proxy.rlwy.net";
-$port = 35052;
-$user = "root";
-$password = "lMLyVHBHrPGvMOxMofJjwZVCOavcNpwV";
-$database = "railway";
+$host = 'nozomi.proxy.rlwy.net';
+$user = 'root';
+$pass = 'BidkvecOfSssXmdZfLtdjwBwxbyCuiYP';
+$db   = 'railway';
+$port = 46884;
 // الاتصال بقاعدة البيانات
 $conn = new mysqli($host, $user, $password, $dbname, $port);
 if ($conn->connect_error) {
@@ -33,3 +33,4 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
